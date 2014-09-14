@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+<<<<<<< HEAD
     <!-- From: file:/Users/syc/Code/habit/app/src/main/res/values-w820dp/dimens.xml -->
+=======
+    <!-- From: file:/Users/mosessoh/AndroidStudioProjects/habit/app/src/main/res/values-w820dp/dimens.xml -->
+>>>>>>> 454d0eec02a2cc8fe78590aeed4e9341849396b8
     <eat-comment />
 
     <dimen name="activity_horizontal_margin">64dp</dimen>

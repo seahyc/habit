@@ -5,7 +5,10 @@
       <module fileurl="file://$PROJECT_DIR$/Parse-1.6.0/Parse-1.6.0.iml" filepath="$PROJECT_DIR$/Parse-1.6.0/Parse-1.6.0.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/habit.iml" filepath="$PROJECT_DIR$/habit.iml" />
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/thirtydays.iml" filepath="$PROJECT_DIR$/thirtydays.iml" />
+=======
+>>>>>>> 454d0eec02a2cc8fe78590aeed4e9341849396b8
     </modules>
   </component>
 </project>

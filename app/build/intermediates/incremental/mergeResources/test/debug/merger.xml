@@ -2,9 +2,9 @@
 <merger version="2" >
 
     <dataSet config="main" >
-        <source path="C:\Users\John\facebook-android-sdk-3.18\thirty\app\src\androidTest\res" />
-        <source path="C:\Users\John\facebook-android-sdk-3.18\thirty\app\build\generated\res\rs\test\debug" />
-        <source path="C:\Users\John\facebook-android-sdk-3.18\thirty\app\build\generated\res\generated\test\debug" />
+        <source path="/Users/mosessoh/AndroidStudioProjects/habit/app/src/androidTest/res" />
+        <source path="/Users/mosessoh/AndroidStudioProjects/habit/app/build/generated/res/rs/test/debug" />
+        <source path="/Users/mosessoh/AndroidStudioProjects/habit/app/build/generated/res/generated/test/debug" />
     </dataSet>
 
 </merger>

@@ -2,29 +2,49 @@
 <merger version="2" >
 
     <dataSet config="main" >
+<<<<<<< HEAD
         <source path="/Users/syc/Code/habit/app/src/main/res" >
             <file
                 name="ic_launcher"
                 path="/Users/syc/Code/habit/app/src/main/res/drawable-hdpi/ic_launcher.png"
+=======
+        <source path="/Users/mosessoh/AndroidStudioProjects/habit/app/src/main/res" >
+            <file
+                name="ic_launcher"
+                path="/Users/mosessoh/AndroidStudioProjects/habit/app/src/main/res/drawable-hdpi/ic_launcher.png"
+>>>>>>> 454d0eec02a2cc8fe78590aeed4e9341849396b8
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="thirty_logo_2"
+<<<<<<< HEAD
                 path="/Users/syc/Code/habit/app/src/main/res/drawable-hdpi/thirty_logo_2.png"
+=======
+                path="/Users/mosessoh/AndroidStudioProjects/habit/app/src/main/res/drawable-hdpi/thirty_logo_2.png"
+>>>>>>> 454d0eec02a2cc8fe78590aeed4e9341849396b8
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="ic_launcher"
+<<<<<<< HEAD
                 path="/Users/syc/Code/habit/app/src/main/res/drawable-mdpi/ic_launcher.png"
+=======
+                path="/Users/mosessoh/AndroidStudioProjects/habit/app/src/main/res/drawable-mdpi/ic_launcher.png"
+>>>>>>> 454d0eec02a2cc8fe78590aeed4e9341849396b8
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="ic_launcher"
+<<<<<<< HEAD
                 path="/Users/syc/Code/habit/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+=======
+                path="/Users/mosessoh/AndroidStudioProjects/habit/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+>>>>>>> 454d0eec02a2cc8fe78590aeed4e9341849396b8
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="ic_launcher"
+<<<<<<< HEAD
                 path="/Users/syc/Code/habit/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
@@ -35,6 +55,38 @@
                 type="menu" />
             <file
                 path="/Users/syc/Code/habit/app/src/main/res/values/dimens.xml"
+=======
+                path="/Users/mosessoh/AndroidStudioProjects/habit/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="activity_habit"
+                path="/Users/mosessoh/AndroidStudioProjects/habit/app/src/main/res/layout/activity_habit.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_main"
+                path="/Users/mosessoh/AndroidStudioProjects/habit/app/src/main/res/layout/activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_one"
+                path="/Users/mosessoh/AndroidStudioProjects/habit/app/src/main/res/layout/activity_one.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_verification"
+                path="/Users/mosessoh/AndroidStudioProjects/habit/app/src/main/res/layout/activity_verification.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="one"
+                path="/Users/mosessoh/AndroidStudioProjects/habit/app/src/main/res/menu/one.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="/Users/mosessoh/AndroidStudioProjects/habit/app/src/main/res/values/dimens.xml"
+>>>>>>> 454d0eec02a2cc8fe78590aeed4e9341849396b8
                 qualifiers="" >
                 <dimen name="activity_horizontal_margin" >16dp
                 </dimen>
@@ -42,13 +94,32 @@
                 </dimen>
             </file>
             <file
+<<<<<<< HEAD
                 path="/Users/syc/Code/habit/app/src/main/res/values/strings.xml"
+=======
+                path="/Users/mosessoh/AndroidStudioProjects/habit/app/src/main/res/values/strings.xml"
+>>>>>>> 454d0eec02a2cc8fe78590aeed4e9341849396b8
                 qualifiers="" >
                 <string name="add_habit" >Add Habit
                 </string>
                 <string name="action_settings" >Settings
                 </string>
+<<<<<<< HEAD
+=======
+                <string name="welcome_question" >What is your username?
+                </string>
+                <string name="partner" >No partner yet
+                </string>
+                <string name="dashboard" >Dashboard
+                </string>
+                <string name="notifications" >Verification
+                </string>
+                <string name="welcome_message" >Welcome.
+                </string>
+>>>>>>> 454d0eec02a2cc8fe78590aeed4e9341849396b8
 
+                <color name="orange" >#f39c12
+                </color>
                 <color name="white" >#FFFFFF
                 </color>
 
@@ -80,7 +151,11 @@
                 </string>
             </file>
             <file
+<<<<<<< HEAD
                 path="/Users/syc/Code/habit/app/src/main/res/values/styles.xml"
+=======
+                path="/Users/mosessoh/AndroidStudioProjects/habit/app/src/main/res/values/styles.xml"
+>>>>>>> 454d0eec02a2cc8fe78590aeed4e9341849396b8
                 qualifiers="" >
 
                 <style
@@ -103,11 +178,16 @@
                 </style>
             </file>
             <file
+<<<<<<< HEAD
                 path="/Users/syc/Code/habit/app/src/main/res/values-w820dp/dimens.xml"
+=======
+                path="/Users/mosessoh/AndroidStudioProjects/habit/app/src/main/res/values-w820dp/dimens.xml"
+>>>>>>> 454d0eec02a2cc8fe78590aeed4e9341849396b8
                 qualifiers="w820dp-v13" >
                 <dimen name="activity_horizontal_margin" >64dp
                 </dimen>
             </file>
+<<<<<<< HEAD
             <file
                 name="dashboard"
                 path="/Users/syc/Code/habit/app/src/main/res/layout/dashboard.xml"
@@ -134,6 +214,14 @@
     </dataSet>
     <dataSet config="debug" >
         <source path="/Users/syc/Code/habit/app/src/debug/res" />
+=======
+        </source>
+        <source path="/Users/mosessoh/AndroidStudioProjects/habit/app/build/generated/res/rs/debug" />
+        <source path="/Users/mosessoh/AndroidStudioProjects/habit/app/build/generated/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/mosessoh/AndroidStudioProjects/habit/app/src/debug/res" />
+>>>>>>> 454d0eec02a2cc8fe78590aeed4e9341849396b8
     </dataSet>
 
 </merger>

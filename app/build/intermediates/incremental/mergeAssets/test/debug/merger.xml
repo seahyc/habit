@@ -2,7 +2,7 @@
 <merger version="2" >
 
     <dataSet config="main" >
-        <source path="C:\Users\John\facebook-android-sdk-3.18\thirty\app\src\androidTest\assets" />
+        <source path="/Users/mosessoh/AndroidStudioProjects/habit/app/src/androidTest/assets" />
     </dataSet>
 
 </merger>

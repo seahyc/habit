@@ -2,10 +2,17 @@
 <merger version="2" >
 
     <dataSet config="main" >
+<<<<<<< HEAD
         <source path="/Users/syc/Code/habit/app/src/main/assets" />
     </dataSet>
     <dataSet config="debug" >
         <source path="/Users/syc/Code/habit/app/src/debug/assets" />
+=======
+        <source path="/Users/mosessoh/AndroidStudioProjects/habit/app/src/main/assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/mosessoh/AndroidStudioProjects/habit/app/src/debug/assets" />
+>>>>>>> 454d0eec02a2cc8fe78590aeed4e9341849396b8
     </dataSet>
 
 </merger>

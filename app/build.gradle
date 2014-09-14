@@ -21,5 +21,4 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile files('/Users/syc/Code/thirtydays/app/libs/Parse-1.6.0.jar')
 }
