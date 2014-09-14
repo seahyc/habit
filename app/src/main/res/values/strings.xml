@@ -19,7 +19,7 @@
     <color name="orange">#f39c12</color>
 
     <string name="title_activity_habit">Habit</string>
-    <string name="title_activity_verification">Verification</string>
+    <string name="title_activity_verification">Verify</string>
 
 
 </resources>

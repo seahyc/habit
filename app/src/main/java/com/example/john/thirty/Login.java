@@ -14,7 +14,7 @@ import com.parse.Parse;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
 
-public class Main extends Activity {
+public class Login extends Activity {
 
 
     public final static String EXTRA_MESSAGE = "thirtydays.main";
