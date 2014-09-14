@@ -2,54 +2,59 @@
 <merger version="2" >
 
     <dataSet config="main" >
-        <source path="/Users/syc/Code/thirtydays/app/src/main/res" >
+        <source path="/Users/mosessoh/AndroidStudioProjects/habit/app/src/main/res" >
             <file
                 name="ic_launcher"
-                path="/Users/syc/Code/thirtydays/app/src/main/res/drawable-hdpi/ic_launcher.png"
+                path="/Users/mosessoh/AndroidStudioProjects/habit/app/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="thirty_logo_2"
+                path="/Users/mosessoh/AndroidStudioProjects/habit/app/src/main/res/drawable-hdpi/thirty_logo_2.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/syc/Code/thirtydays/app/src/main/res/drawable-mdpi/ic_launcher.png"
+                path="/Users/mosessoh/AndroidStudioProjects/habit/app/src/main/res/drawable-mdpi/ic_launcher.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/syc/Code/thirtydays/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+                path="/Users/mosessoh/AndroidStudioProjects/habit/app/src/main/res/drawable-xhdpi/ic_launcher.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/syc/Code/thirtydays/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                path="/Users/mosessoh/AndroidStudioProjects/habit/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="activity_habit"
-                path="/Users/syc/Code/thirtydays/app/src/main/res/layout/activity_habit.xml"
+                path="/Users/mosessoh/AndroidStudioProjects/habit/app/src/main/res/layout/activity_habit.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="activity_main"
-                path="/Users/syc/Code/thirtydays/app/src/main/res/layout/activity_main.xml"
+                path="/Users/mosessoh/AndroidStudioProjects/habit/app/src/main/res/layout/activity_main.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="activity_one"
-                path="/Users/syc/Code/thirtydays/app/src/main/res/layout/activity_one.xml"
+                path="/Users/mosessoh/AndroidStudioProjects/habit/app/src/main/res/layout/activity_one.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="activity_verification"
-                path="/Users/syc/Code/thirtydays/app/src/main/res/layout/activity_verification.xml"
+                path="/Users/mosessoh/AndroidStudioProjects/habit/app/src/main/res/layout/activity_verification.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="one"
-                path="/Users/syc/Code/thirtydays/app/src/main/res/menu/one.xml"
+                path="/Users/mosessoh/AndroidStudioProjects/habit/app/src/main/res/menu/one.xml"
                 qualifiers=""
                 type="menu" />
             <file
-                path="/Users/syc/Code/thirtydays/app/src/main/res/values/dimens.xml"
+                path="/Users/mosessoh/AndroidStudioProjects/habit/app/src/main/res/values/dimens.xml"
                 qualifiers="" >
                 <dimen name="activity_horizontal_margin" >16dp
                 </dimen>
@@ -57,7 +62,7 @@
                 </dimen>
             </file>
             <file
-                path="/Users/syc/Code/thirtydays/app/src/main/res/values/strings.xml"
+                path="/Users/mosessoh/AndroidStudioProjects/habit/app/src/main/res/values/strings.xml"
                 qualifiers="" >
                 <string name="add_habit" >Add Habit
                 </string>
@@ -69,15 +74,13 @@
                 </string>
                 <string name="dashboard" >Dashboard
                 </string>
-
-                <color name="orange" >#f39c12
-                </color>
-
                 <string name="notifications" >Verification
                 </string>
                 <string name="welcome_message" >Welcome.
                 </string>
 
+                <color name="orange" >#f39c12
+                </color>
                 <color name="white" >#FFFFFF
                 </color>
 
@@ -95,7 +98,7 @@
                 </string>
             </file>
             <file
-                path="/Users/syc/Code/thirtydays/app/src/main/res/values/styles.xml"
+                path="/Users/mosessoh/AndroidStudioProjects/habit/app/src/main/res/values/styles.xml"
                 qualifiers="" >
 
                 <style
@@ -118,22 +121,17 @@
                 </style>
             </file>
             <file
-                path="/Users/syc/Code/thirtydays/app/src/main/res/values-w820dp/dimens.xml"
+                path="/Users/mosessoh/AndroidStudioProjects/habit/app/src/main/res/values-w820dp/dimens.xml"
                 qualifiers="w820dp-v13" >
                 <dimen name="activity_horizontal_margin" >64dp
                 </dimen>
             </file>
-            <file
-                name="thirty_logo_2"
-                path="/Users/syc/Code/thirtydays/app/src/main/res/drawable-hdpi/thirty_logo_2.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
         </source>
-        <source path="/Users/syc/Code/thirtydays/app/build/generated/res/rs/debug" />
-        <source path="/Users/syc/Code/thirtydays/app/build/generated/res/generated/debug" />
+        <source path="/Users/mosessoh/AndroidStudioProjects/habit/app/build/generated/res/rs/debug" />
+        <source path="/Users/mosessoh/AndroidStudioProjects/habit/app/build/generated/res/generated/debug" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/Users/syc/Code/thirtydays/app/src/debug/res" />
+        <source path="/Users/mosessoh/AndroidStudioProjects/habit/app/src/debug/res" />
     </dataSet>
 
 </merger>

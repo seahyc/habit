@@ -2,8 +2,8 @@
 <pre-dex-items>
 
     <item
-        dex="/Users/syc/Code/thirtydays/app/build/intermediates/pre-dexed/debug/Parse-1.6.0-ff634a496913caca7533bf1fc635f70f90b22b7b.jar"
-        jar="/Users/syc/Code/thirtydays/app/libs/Parse-1.6.0.jar"
+        dex="/Users/mosessoh/AndroidStudioProjects/habit/app/build/intermediates/pre-dexed/debug/Parse-1.6.0-b1c4329c636bc9a29c31ff1ab225d81de5d3d506.jar"
+        jar="/Users/mosessoh/AndroidStudioProjects/habit/app/libs/Parse-1.6.0.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="2a812174191af5a4513a873602a765b0171f252c"/>
