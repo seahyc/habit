@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">thirty</string>
+    <string name="name_prompt">Give your habit a name.</string>
+    <string name="action_settings">Settings</string>
+    <string name="description_prompt">What will you do every day?</string>
+    <string name="partner">No partner yet</string>
+</resources>
