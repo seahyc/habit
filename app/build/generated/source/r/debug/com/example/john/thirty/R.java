@@ -25,30 +25,30 @@ public final class R {
     public static final class id {
         public static final int add_habit=0x7f090011;
         public static final int dashboard=0x7f090012;
-        public static final int debug_field=0x7f090007;
-        public static final int description_prompt=0x7f09000a;
-        public static final int friend_list=0x7f09000c;
-        public static final int habit_description=0x7f09000b;
-        public static final int habit_habitName=0x7f090001;
-        public static final int habit_name=0x7f090009;
-        public static final int habit_streak=0x7f090002;
-        public static final int habit_username=0x7f090000;
-        public static final int name_prompt=0x7f090008;
+        public static final int debug_field=0x7f09000e;
+        public static final int description_prompt=0x7f090002;
+        public static final int friend_list=0x7f090004;
+        public static final int habit_description=0x7f090003;
+        public static final int habit_habitName=0x7f090008;
+        public static final int habit_name=0x7f090001;
+        public static final int habit_streak=0x7f090009;
+        public static final int habit_username=0x7f090007;
+        public static final int name_prompt=0x7f090000;
         public static final int notifications=0x7f090013;
-        public static final int notifications_pending=0x7f090003;
-        public static final int onClickAddProgress=0x7f090004;
-        public static final int onClickGoToVerification=0x7f090005;
-        public static final int partner=0x7f09000d;
-        public static final int submit_button=0x7f09000e;
-        public static final int username_field=0x7f090006;
+        public static final int notifications_pending=0x7f09000a;
+        public static final int onClickAddProgress=0x7f09000b;
+        public static final int onClickGoToVerification=0x7f09000c;
+        public static final int partner=0x7f090005;
+        public static final int submit_button=0x7f090006;
+        public static final int username_field=0x7f09000d;
         public static final int verification_message=0x7f09000f;
         public static final int verify_button=0x7f090010;
     }
     public static final class layout {
-        public static final int activity_habit=0x7f030000;
-        public static final int activity_main=0x7f030001;
-        public static final int activity_one=0x7f030002;
-        public static final int activity_verification=0x7f030003;
+        public static final int addhabit=0x7f030000;
+        public static final int dashboard=0x7f030001;
+        public static final int login=0x7f030002;
+        public static final int verification=0x7f030003;
     }
     public static final class menu {
         public static final int one=0x7f080000;

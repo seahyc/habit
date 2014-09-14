@@ -37,7 +37,7 @@
         android:id="@+id/onClickAddProgress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add to Progress"
+        android:text="I've Done it Today!"
         android:onClick="onClickAddProgress"/>
 
     <Button

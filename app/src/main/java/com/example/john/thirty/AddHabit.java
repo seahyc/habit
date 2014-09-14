@@ -1,13 +1,11 @@
 package com.example.john.thirty;
 
 import android.app.Activity;
-import android.app.Notification;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -18,9 +16,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 
 import com.parse.FindCallback;
-import com.parse.GetCallback;
 import com.parse.Parse;
-import com.parse.ParseAnalytics;
 import com.parse.ParseException;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
@@ -29,7 +25,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class One extends Activity implements View.OnClickListener, AdapterView.OnItemClickListener {
+public class AddHabit extends Activity implements View.OnClickListener, AdapterView.OnItemClickListener {
 
     //local saving preparation
     private static final String PREFS = "prefs";
@@ -57,7 +53,7 @@ public class One extends Activity implements View.OnClickListener, AdapterView.O
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_one);
+        setContentView(R.layout.addhabit);
 
         habit_name = (EditText) findViewById(R.id.habit_name);
         habit_description = (EditText) findViewById(R.id.habit_description);
@@ -155,7 +151,7 @@ public class One extends Activity implements View.OnClickListener, AdapterView.O
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
         if (id == R.id.add_habit) {
-            Intent intent = new Intent(this, One.class);
+            Intent intent = new Intent(this, AddHabit.class);
             startActivity(intent);
             return true;
         }

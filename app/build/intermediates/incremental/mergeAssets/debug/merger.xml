@@ -2,10 +2,10 @@
 <merger version="2" >
 
     <dataSet config="main" >
-        <source path="/Users/syc/Code/thirtydays/app/src/main/assets" />
+        <source path="/Users/syc/Code/habit/app/src/main/assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/Users/syc/Code/thirtydays/app/src/debug/assets" />
+        <source path="/Users/syc/Code/habit/app/src/debug/assets" />
     </dataSet>
 
 </merger>

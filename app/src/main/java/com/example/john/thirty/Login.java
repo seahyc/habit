@@ -10,18 +10,11 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 
-import com.parse.FindCallback;
-import com.parse.GetCallback;
 import com.parse.Parse;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
 
-import java.text.ParseException;
-import java.util.List;
-
-import static com.parse.Parse.*;
-
-public class Main extends Activity {
+public class Login extends Activity {
 
 
     public final static String EXTRA_MESSAGE = "thirtydays.main";
@@ -35,7 +28,7 @@ public class Main extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.login);
         Parse.initialize(this, "xsm18wbqaquudpKVem8xVN2QjL9XgpMsCQtOY88y", "EnNw10WrCSrpwSvr6ebCmp310MiXBbgXy8e0wAmq");
 
         ParseQuery<ParseObject> query = ParseQuery.getQuery("habit");
@@ -67,7 +60,7 @@ public class Main extends Activity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
         if (id == R.id.add_habit) {
-            Intent intent = new Intent(this, One.class);
+            Intent intent = new Intent(this, AddHabit.class);
             startActivity(intent);
             return true;
         }
@@ -102,7 +95,7 @@ public class Main extends Activity {
 //        String debugPrint = mSharedPreferences.getString(PREF_NAME, "You failed.");
 //        mTextView.setText(debugPrint);
 
-        Intent intent = new Intent(this, One.class);
+        Intent intent = new Intent(this, AddHabit.class);
         intent.putExtra(EXTRA_MESSAGE, inputName);
         startActivity(intent);
 

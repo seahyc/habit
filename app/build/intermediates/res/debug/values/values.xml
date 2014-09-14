@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/Users/syc/Code/thirtydays/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/syc/Code/habit/app/src/main/res/values/strings.xml -->
     <eat-comment />
 
     <color name="orange">#f39c12</color>
     <color name="white">#FFFFFF</color>
-    <!-- From: file:/Users/syc/Code/thirtydays/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/Users/syc/Code/habit/app/src/main/res/values/dimens.xml -->
     <eat-comment />
 
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/Users/syc/Code/thirtydays/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/syc/Code/habit/app/src/main/res/values/strings.xml -->
     <eat-comment />
 
     <string name="action_settings">Settings</string>
@@ -24,10 +24,10 @@
     <string name="notifications">Verification</string>
     <string name="partner">No partner yet</string>
     <string name="title_activity_habit">Habit</string>
-    <string name="title_activity_verification">Verification</string>
+    <string name="title_activity_verification">Verify</string>
     <string name="welcome_message">Welcome.</string>
     <string name="welcome_question">What is your username?</string>
-    <!-- From: file:/Users/syc/Code/thirtydays/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/Users/syc/Code/habit/app/src/main/res/values/styles.xml -->
     <eat-comment />
 
     <style name="AppTheme" parent="@android:style/Theme.Holo.Light">

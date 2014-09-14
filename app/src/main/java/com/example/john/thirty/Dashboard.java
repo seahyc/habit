@@ -32,7 +32,7 @@ public class Dashboard extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_habit);
+        setContentView(R.layout.dashboard);
 
         mSharedPreferences = getSharedPreferences(PREFS, MODE_PRIVATE);
         username_stored = mSharedPreferences.getString(PREF_NAME, "You failed.");
@@ -64,7 +64,7 @@ public class Dashboard extends Activity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
         if (id == R.id.add_habit) {
-            Intent intent = new Intent(this, One.class);
+            Intent intent = new Intent(this, AddHabit.class);
             startActivity(intent);
             return true;
         }

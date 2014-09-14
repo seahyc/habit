@@ -11,9 +11,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.example.john.thirty.Dashboard;
-import com.example.john.thirty.One;
-import com.example.john.thirty.R;
 import com.parse.Parse;
 import com.parse.ParseException;
 import com.parse.ParseObject;
@@ -38,7 +35,7 @@ public class Verification extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_verification);
+        setContentView(R.layout.verification);
         Parse.initialize(this, "xsm18wbqaquudpKVem8xVN2QjL9XgpMsCQtOY88y", "EnNw10WrCSrpwSvr6ebCmp310MiXBbgXy8e0wAmq");
 
         mSharedPreferences = getSharedPreferences(PREFS, MODE_PRIVATE);
@@ -132,7 +129,7 @@ public class Verification extends Activity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
         if (id == R.id.add_habit) {
-            Intent intent = new Intent(this, One.class);
+            Intent intent = new Intent(this, AddHabit.class);
             startActivity(intent);
             return true;
         }
