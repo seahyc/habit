@@ -1,6 +1,7 @@
 package com.example.john.thirty;
 
 import android.app.Activity;
+import android.app.Notification;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -13,6 +14,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.content.Intent;
 import android.content.SharedPreferences;
 
 import com.parse.FindCallback;
@@ -111,8 +113,8 @@ public class One extends Activity implements View.OnClickListener, AdapterView.O
         String habitDescription = habit_description.getText().toString();
 
         mSharedPreferences = getSharedPreferences(PREFS, MODE_PRIVATE);
-        String userName = mSharedPreferences.getString(PREF_NAME, "John");
-        int userID = mSharedPreferences.getInt(PREF_ID, 2);
+        String userName = mSharedPreferences.getString(PREF_NAME, "No locally stored name");
+        int userID = mSharedPreferences.getInt("id", -1);
         //userID needs to be pulled from Shared preferences
         // null is partnerName, which needs to be determined from database call,
         //or input by the user via a text field.
@@ -134,11 +136,8 @@ public class One extends Activity implements View.OnClickListener, AdapterView.O
         databaseLink.put("r_progress",0);
         databaseLink.saveInBackground();
 
-
-
-        Habit currentHabit = new Habit(userID, userName, habitName, habitDescription, null);
-
-
+        Intent intent = new Intent(this, Dashboard.class);
+        startActivity(intent);
     }
 
 
@@ -155,7 +154,21 @@ public class One extends Activity implements View.OnClickListener, AdapterView.O
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-        if (id == R.id.action_settings) {
+        if (id == R.id.add_habit) {
+            Intent intent = new Intent(this, One.class);
+            startActivity(intent);
+            return true;
+        }
+
+        if (id == R.id.notifications) {
+            Intent intent = new Intent(this, Verification.class);
+            startActivity(intent);
+            return true;
+        }
+
+        if (id == R.id.dashboard) {
+            Intent intent = new Intent(this, Dashboard.class);
+            startActivity(intent);
             return true;
         }
         return super.onOptionsItemSelected(item);

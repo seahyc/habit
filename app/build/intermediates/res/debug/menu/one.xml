@@ -1,9 +1,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".One" >
-    <item android:id="@+id/action_settings"
-        android:title="@string/action_settings"
+    <item android:id="@+id/add_habit"
+        android:title="@string/add_habit"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/dashboard"
+        android:title="@string/dashboard"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/notifications"
+        android:title="@string/notifications"
         android:orderInCategory="100"
         android:showAsAction="never" />
 </menu>
-<!-- From: file:/C:/Users/John/facebook-android-sdk-3.18/thirty/app/src/main/res/menu/one.xml -->
+<!-- From: file:/Users/syc/Code/thirtydays/app/src/main/res/menu/one.xml -->

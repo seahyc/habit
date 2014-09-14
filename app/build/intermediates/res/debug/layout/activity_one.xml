@@ -50,7 +50,7 @@
         android:id="@+id/submit_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Save it. "/>
+        android:text="Save it"/>
 
 </LinearLayout>
-<!-- From: file:/C:/Users/John/facebook-android-sdk-3.18/thirty/app/src/main/res/layout/activity_one.xml -->
+<!-- From: file:/Users/syc/Code/thirtydays/app/src/main/res/layout/activity_one.xml -->
